@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 3000;
-const name = "Nithin Test";
+const name = "Nithin Test Job";
 
 app.get("/", (req, res) => {
     const message = `Welcome to ShopEasy from ${name}!`
